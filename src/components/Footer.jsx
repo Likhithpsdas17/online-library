@@ -4,9 +4,9 @@ function Footer() {
       style={{
         textAlign: "center",
         padding: "20px",
-        marginTop: "40px",
         background: "#222",
         color: "white",
+        marginTop: "40px",
       }}
     >
       Online Library System © 2026
