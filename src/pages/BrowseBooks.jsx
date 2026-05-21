@@ -38,6 +38,7 @@ function BrowseBooks() {
         {filteredBooks.map((book) => (
           <BookCard key={book.id} book={book} />
         ))}
+
       </div>
     </div>
   );
