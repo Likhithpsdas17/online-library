@@ -33,11 +33,11 @@ function AddBook() {
     const { title, author, category, description, rating } = formData;
 
     if (
-      !title ||
-      !author ||
-      !category ||
-      !description ||
-      !rating
+    !title.trim() ||
+    !author.trim() ||
+    !category.trim() ||
+    !description.trim() ||
+    !rating
     ) {
       setError("All fields are required");
       return;
